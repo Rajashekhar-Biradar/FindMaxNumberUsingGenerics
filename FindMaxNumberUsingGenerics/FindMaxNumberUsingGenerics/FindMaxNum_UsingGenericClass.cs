@@ -6,11 +6,20 @@ using System.Threading.Tasks;
 
 namespace FindMaxNumberUsingGenerics
 {
-    public class Integer_FindMaxNumber
+    public class FindMaxNum_UsingGenericClass<T>  where T : IComparable<T>
     {
-        public static int Find_Max_num(int num1, int num2, int num3)
+        public T num1, num2, num3;
+
+        public FindMaxNum_UsingGenericClass(T num1, T num2, T num3)
         {
-            if (num1.CompareTo(num2) > 0 && num1.CompareTo(num3) > 0 
+            this.num1 = num1;
+            this.num2 = num2;
+            this.num3 = num3;
+        }
+
+        public static T Find_Max_num(T num1, T num2, T num3)
+        {
+            if (num1.CompareTo(num2) > 0 && num1.CompareTo(num3) > 0
               || num1.CompareTo(num2) >= 0 && num1.CompareTo(num3) > 0
               || num1.CompareTo(num2) > 0 && num1.CompareTo(num3) >= 0)
             {
@@ -28,7 +37,7 @@ namespace FindMaxNumberUsingGenerics
             {
                 return num3;
             }
-            return 0;
+            return num1;
         }
     }
 }
