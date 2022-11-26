@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMaxNumberUsingGenerics", "FindMaxNumberUsingGenerics\FindMaxNumberUsingGenerics.csproj", "{9A4CF455-9882-48E2-B323-032003D1F92A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{33D37F6D-C49E-4CA0-92A2-1D38462BA08B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A4CF455-9882-48E2-B323-032003D1F92A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A4CF455-9882-48E2-B323-032003D1F92A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A4CF455-9882-48E2-B323-032003D1F92A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A4CF455-9882-48E2-B323-032003D1F92A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33D37F6D-C49E-4CA0-92A2-1D38462BA08B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33D37F6D-C49E-4CA0-92A2-1D38462BA08B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33D37F6D-C49E-4CA0-92A2-1D38462BA08B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33D37F6D-C49E-4CA0-92A2-1D38462BA08B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74F2BB1E-D59A-41EF-BFEA-AAE5B3893093}
+	EndGlobalSection
+EndGlobal
