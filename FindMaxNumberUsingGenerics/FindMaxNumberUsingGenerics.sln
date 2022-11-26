@@ -5,7 +5,7 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMaxNumberUsingGenerics", "FindMaxNumberUsingGenerics\FindMaxNumberUsingGenerics.csproj", "{9A4CF455-9882-48E2-B323-032003D1F92A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{33D37F6D-C49E-4CA0-92A2-1D38462BA08B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{8C45884D-3028-4BC6-9842-D74F81190804}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{9A4CF455-9882-48E2-B323-032003D1F92A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A4CF455-9882-48E2-B323-032003D1F92A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A4CF455-9882-48E2-B323-032003D1F92A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{33D37F6D-C49E-4CA0-92A2-1D38462BA08B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{33D37F6D-C49E-4CA0-92A2-1D38462BA08B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{33D37F6D-C49E-4CA0-92A2-1D38462BA08B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{33D37F6D-C49E-4CA0-92A2-1D38462BA08B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C45884D-3028-4BC6-9842-D74F81190804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C45884D-3028-4BC6-9842-D74F81190804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C45884D-3028-4BC6-9842-D74F81190804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C45884D-3028-4BC6-9842-D74F81190804}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
