@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace FindMaxNumberUsingGenerics
 {
-    internal class Floats_FindMaxNum
+    internal class FindMaxNum_UsingGeneric
     {
-        public static float Find_Max_num(float num1, float num2, float num3)
+        public static T Find_Max_num<T>(T num1, T num2, T num3) where T : IComparable<T>
         {
             if (num1.CompareTo(num2) > 0 && num1.CompareTo(num3) > 0
               || num1.CompareTo(num2) >= 0 && num1.CompareTo(num3) > 0
